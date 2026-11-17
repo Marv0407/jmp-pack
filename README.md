@@ -10,7 +10,9 @@ Dieser Ordner enthält nur Verweise auf die Mods, keine JAR-Dateien. Die Mods l�
 4. Instanz bearbeiten, Einstellungen, Benutzerdefinierte Befehle, "Benutzerdefinierte Befehle aktivieren":
    Vor dem Start: `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar PACK_URL`
 5. `packwiz-installer-bootstrap.jar` in den Minecraft-Ordner der Instanz legen (Instanz, Ordner öffnen, Minecraft).
-6. Starten. Beim ersten Mal lädt der Installer alle Mods, bei jedem weiteren Start nur Änderungen.
+6. IM-Fast einmal manuell laden (der Autor erlaubt keinen automatischen Download):
+   https://www.curseforge.com/minecraft/mc-mods/im-fast, Datei `imfast-NEOFORGE-1.21.1-1.0.3.jar` herunterladen und in den Ordner `mods` der Instanz legen (neben `packwiz-installer-bootstrap.jar` im Minecraft-Ordner).
+7. Starten. Beim ersten Mal lädt der Installer alle Mods, bei jedem weiteren Start nur Änderungen.
 
 ## Admin: Änderungen am Pack
 Alle Befehle in diesem Ordner, `packwiz.exe` liegt in `..\tools`.
