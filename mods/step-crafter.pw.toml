@@ -1,0 +1,13 @@
+name = "Step Crafter"
+filename = "stepcrafter-neoforge-1.21.1-0.1.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d837ffac46c60fa788929ef0ef1bd2fe6c1bf6db"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9258369
+project-id = 1398054
