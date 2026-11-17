@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "0f9ec52732621e5b4fa40ffc7e410e7ec9889a7d7ce508fd2b7ac5e159ca7a05"
+
+[[files]]
 file = "bsl-shaders.pw.toml"
 hash = "4a5ea44fb3e87c430dbb19df9587ec93bd189ea1a12a15ed190dde3cf5a5cf13"
 metafile = true
@@ -16091,7 +16095,7 @@ metafile = true
 
 [[files]]
 file = "mods/corail-tombstone.pw.toml"
-hash = "67515bd1c560dd067e2349bc4d55753f1b580ead6b40b29b9987322b1e774cb9"
+hash = "7b4e74ebfc923568149d8a27a90217788713f184af1333d2f93708dfbab83dfd"
 metafile = true
 
 [[files]]
@@ -16625,11 +16629,6 @@ hash = "9c29704cb4b162b8dc6a0fa8bdeddcb250a5029d7ab85467445dffb9156c484c"
 metafile = true
 
 [[files]]
-file = "mods/im-fast.pw.toml"
-hash = "07fa2e0f96d91ea3cb6859c58c2f3738b4a64a7f5e3e050d5e44f4a1809ea7cb"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "b308dfacb39de2e41e90ea4e5489d0075b60ed0e3f2a7d4e5d57ea8343db9a57"
 metafile = true
@@ -17131,7 +17130,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-overlays-updated.pw.toml"
-hash = "c315824dfe979035e9943c2d6c051cb865e5501c8e48ac96860289a8fb81a28d"
+hash = "a9b5d9fb791c757bcc59b20d0cf3b1fc42f026feb7514c7ce59ee43726f3366d"
 metafile = true
 
 [[files]]
@@ -17211,7 +17210,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "15a416bd94c832989f0341b93fc88fb3947285c954c767c4c4f9952e33659ccb"
+hash = "fd84fcf376910b659fdfbcc2401aa545400b0d7c65834eb2fe22bae3a3c921c2"
 metafile = true
 
 [[files]]
@@ -17726,12 +17725,12 @@ metafile = true
 
 [[files]]
 file = "mods/structory-towers.pw.toml"
-hash = "e74548b0dc0bb3633e122f1c36fc8a7978128f15d11cea1a9b54da4991bc1e6f"
+hash = "0f4f506b1171a3a7d7b73150721075f5b1bc703c043fa539bcdd72c93e665b94"
 metafile = true
 
 [[files]]
 file = "mods/structory.pw.toml"
-hash = "411be936c8db5e39300bcafaa7707b236d9a6bbaaf2171879b56b19d5ceea6ca"
+hash = "3c4da8a221086153d491104bba4fd8796dac92d5c3e0b2dc111a6c5d53b65484"
 metafile = true
 
 [[files]]
