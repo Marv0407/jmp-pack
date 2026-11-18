@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jährliche Minecraft Phase: Modpack</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1c2128; --muted:#59636e; --accent:#2f7d4f; --accent-text:#fff; --border:#d8dee4; --code:#eceff2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14181d; --card:#1c2128; --text:#e6edf3; --muted:#9aa4af; --accent:#3fa56a; --accent-text:#0b1f13; --border:#2f3741; --code:#262d36; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:1.7rem; margin:0 0 4px; }
+  .sub { color:var(--muted); margin:0 0 28px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:22px; margin-bottom:18px; }
+  .btn { display:inline-block; background:var(--accent); color:var(--accent-text); font-weight:600; text-decoration:none; padding:12px 22px; border-radius:8px; }
+  .btn:hover { filter:brightness(1.08); }
+  h2 { font-size:1.1rem; margin:0 0 10px; }
+  ol { margin:0; padding-left:1.2em; }
+  li { margin-bottom:6px; }
+  code { background:var(--code); padding:1px 6px; border-radius:4px; font-size:.92em; }
+  .muted { color:var(--muted); font-size:.92rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Jährliche Minecraft Phase</h1>
+  <p class="sub">All the Mods 10 (8.6), NeoForge 21.1.266, Minecraft 1.21.1, plus Create Stock Market und Create Numismatics.</p>
+
+  <div class="card">
+    <h2>Instanz herunterladen</h2>
+    <p><a class="btn" href="https://github.com/Marv0407/jmp-pack/releases/latest/download/JMP-Instanz.zip">JMP-Instanz.zip herunterladen</a></p>
+    <p class="muted">Fertige Instanz für den Prism Launcher, etwa 100 KB. Die Mods lädt der Launcher beim ersten Start selbst, rund 1,4 GB.</p>
+  </div>
+
+  <div class="card">
+    <h2>Einrichtung</h2>
+    <ol>
+      <li><a href="https://prismlauncher.org">Prism Launcher</a> installieren und einmal öffnen.</li>
+      <li>Zip herunterladen, in Prism auf <code>Instanz hinzufügen</code>, dann <code>Importieren</code>, die Zip auswählen. Nicht entpacken.</li>
+      <li>Instanz starten. Beim ersten Start öffnet sich der Installer und lädt alle Mods. Das dauert einige Minuten.</li>
+      <li>Danach im Spiel Multiplayer, Server hinzufügen. Die Adresse steht im Discord in <code>#server-info</code>.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Updates</h2>
+    <p>Änderungen am Modpack werden bei jedem Start automatisch geladen. Du musst nichts neu herunterladen.</p>
+    <p class="muted">Der Pack-Quellcode liegt auf <a href="https://github.com/Marv0407/jmp-pack">GitHub</a>. Bei Problemen im Discord in <code>#bugs-und-lag</code> mit Log oder Screenshot melden.</p>
+  </div>
+</main>
+</body>
+</html>
