@@ -3,11 +3,6 @@ filename = "imfast-NEOFORGE-1.21.1-1.0.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f8e92ef61de3751f619238eed5ae9952b5a049d0"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 8747159
-project-id = 1111501
+url = "https://marv0407.github.io/jmp-pack/files/imfast-NEOFORGE-1.21.1-1.0.3.jar"
+hash-format = "sha256"
+hash = "59bef0451a2045cc357b601fb1ff88da60e761867b1fd6eeaff63fa215b51c8b"
