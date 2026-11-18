@@ -16,6 +16,11 @@ customization {
   action = setscale
   scale = 2.0
 }
+customization {
+  action = autoscale
+  basewidth = 960
+  baseheight = 540
+}
 
 menu_background {
   image_path = [source:local]/config/fancymenu/assets/menu_background.png
@@ -70,10 +75,10 @@ element {
   auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = top-centered
-  x = -100
-  y = 14
-  width = 200
-  height = 67
+  x = -150
+  y = 36
+  width = 300
+  height = 100
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -128,10 +133,10 @@ element {
   auto_sizing_base_screen_height = 1018
   sticky_anchor = false
   anchor_point = bottom-right
-  x = -64
-  y = -34
-  width = 24
-  height = 24
+  x = -94
+  y = -50
+  width = 36
+  height = 36
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -247,10 +252,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = bottom-right
-  x = -94
-  y = -34
-  width = 24
-  height = 24
+  x = -138
+  y = -50
+  width = 36
+  height = 36
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -421,10 +426,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 1018
   sticky_anchor = false
   anchor_point = top-centered
-  x = -70
-  y = 98
-  width = 140
-  height = 33
+  x = -100
+  y = 180
+  width = 200
+  height = 47
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -538,10 +543,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 1018
   sticky_anchor = false
   anchor_point = top-centered
-  x = -70
-  y = 184
-  width = 140
-  height = 33
+  x = -100
+  y = 312
+  width = 200
+  height = 47
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -826,10 +831,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 1080
   sticky_anchor = false
   anchor_point = bottom-right
-  x = -34
-  y = -34
-  width = 24
-  height = 24
+  x = -50
+  y = -50
+  width = 36
+  height = 36
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1000,10 +1005,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 1018
   sticky_anchor = false
   anchor_point = top-centered
-  x = -70
-  y = 136
-  width = 140
-  height = 33
+  x = -100
+  y = 237
+  width = 200
+  height = 47
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
