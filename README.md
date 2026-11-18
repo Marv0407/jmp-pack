@@ -8,7 +8,7 @@ Dieser Ordner enthält nur Verweise auf die Mods, keine JAR-Dateien. Die Mods l�
 2. Neue Instanz: Minecraft 1.21.1, Mod Loader NeoForge 21.1.266, Name "JMP".
 3. Instanz bearbeiten, Einstellungen, Java: mindestens 8 GB RAM (Maximum), Java 21.
 4. Instanz bearbeiten, Einstellungen, Benutzerdefinierte Befehle, "Benutzerdefinierte Befehle aktivieren":
-   Vor dem Start: `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar PACK_URL`
+   Vor dem Start: `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://marv0407.github.io/jmp-pack/pack.toml`
 5. `packwiz-installer-bootstrap.jar` in den Minecraft-Ordner der Instanz legen (Instanz, Ordner öffnen, Minecraft).
 6. Starten. Beim ersten Mal lädt der Installer alle Mods, bei jedem weiteren Start nur Änderungen.
 
@@ -22,6 +22,6 @@ Alle Befehle in diesem Ordner, `packwiz.exe` liegt in `..\tools`.
 
 ## Server
 Auf dem Server liegt `packwiz-installer-bootstrap.jar` neben dem Start-Script. Vor dem Serverstart:
-`java -jar packwiz-installer-bootstrap.jar -g -s server PACK_URL`
+`java -jar packwiz-installer-bootstrap.jar -g -s server https://marv0407.github.io/jmp-pack/pack.toml`
 
 Hinweis: IM-Fast (MIT-Lizenz, Autor Bielhiss) liegt unter files/ und wird automatisch geladen, siehe files/IM-FAST-LICENSE.txt.
