@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "0f9ec52732621e5b4fa40ffc7e410e7ec9889a7d7ce508fd2b7ac5e159ca7a05"
-
-[[files]]
 file = "bsl-shaders.pw.toml"
 hash = "4a5ea44fb3e87c430dbb19df9587ec93bd189ea1a12a15ed190dde3cf5a5cf13"
 metafile = true
@@ -434,10 +430,6 @@ hash = "cc5cff78b1f796c00031a8635ac0604012714588b1340f5a1c5ce613150131de"
 [[files]]
 file = "config/framedblocks-client.toml"
 hash = "1b0e96a995d9ede7a9ff4b6d2cd3f99817c50313a0de44cb97565b55a8a61e84"
-
-[[files]]
-file = "config/ftbquests/quests/README.md"
-hash = "d0e63efe1171561178387eea0c21960708ea4dd63e20d90c77b1c9697191b63f"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -4850,10 +4842,6 @@ hash = "b97e46a2d4bf6f2a01c16a9669727ccb0d90b7537dad230b778d1693a3a66e08"
 [[files]]
 file = "defaultconfigs/justdirethings-common.toml"
 hash = "09e84180732751b177b084b893cb0ffbd237111ebe2a092ad49a13c854771877"
-
-[[files]]
-file = "kubejs/README.md"
-hash = "23b45d6c3c70309c53e50044884f9de0b6538a8e442f4be97c6654db7b6f67a9"
 
 [[files]]
 file = "kubejs/README.txt"
