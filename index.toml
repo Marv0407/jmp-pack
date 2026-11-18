@@ -117,7 +117,15 @@ hash = "0c336e61ff39c794c952fe96079940d8440543b7aff28d9a8d8a7db7b9e2d073"
 
 [[files]]
 file = "config/allthetweaks-common.toml"
-hash = "f0862a84f9c6b344c1d8f3153edf879916b5eeebc9d0637ffe6ea0435db4fd1e"
+hash = "131f646eadbf53ee720a722d99d05c9d8e1fc4ec554bf203168ad3cd32388707"
+
+[[files]]
+file = "config/allthetweaks/icon_16.png"
+hash = "9eac7b89b34ebe3651f390f464b2571f73015f4e4d14efba7284e479032999fd"
+
+[[files]]
+file = "config/allthetweaks/icon_32.png"
+hash = "b48ff70d074904eb986eedc80d0668d81ceda8d3b2921b9dc317ab14d4022580"
 
 [[files]]
 file = "config/almostunified/duplicates.json"
@@ -313,7 +321,7 @@ hash = "e6b1c96dac26ca6e9a1401ebe9e1bc6bbaeb32d624b8a52b7cbc6b9476c2c784"
 
 [[files]]
 file = "config/fancymenu/assets/logo.png"
-hash = "7292d4669092b609129fc8ceb5e3dd99e500a8982cd4fb981a0b0d6ab3a0c514"
+hash = "d6bb55350752d47671bd0164d3c5aa1af9509e1cb09177304d2fe7074f08225c"
 
 [[files]]
 file = "config/fancymenu/assets/menu_background.png"

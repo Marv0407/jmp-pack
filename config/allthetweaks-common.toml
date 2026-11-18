@@ -12,10 +12,10 @@
 [pack]
 	#Target of the CurseForge button on the Discord Rich Presence card
 	#Leave blank for no CurseForge button
-	curseforge_url = "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10"
+	curseforge_url = ""
 	#Pack name shown in the window title and on the branding lines
 	#Leave blank to take it from the packmode profile
-	display_name = "All The Mods 10"
+	display_name = "JMP"
 
 	[pack.discord]
 		#Asset key or image URL for the small corner icon on the card
@@ -37,7 +37,7 @@
 	[pack.window]
 		#16x16 window icon, read from the allthetweaks folder next to this file
 		#Leave blank to use the bundled icon
-		icon_16 = ""
+		icon_16 = "icon_16.png"
 		#32x32 window icon, read from the allthetweaks folder next to this file
 		#Leave blank to use the bundled icon
-		icon_32 = ""
+		icon_32 = "icon_32.png"
