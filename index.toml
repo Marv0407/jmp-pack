@@ -297,7 +297,7 @@ hash = "5e89343a12762a9789b7704120697053286e371cffb18e6a94343b3dbcacdd86"
 
 [[files]]
 file = "config/fancymenu/assets/logo.png"
-hash = "022a92353df57c3e5660257cd5f1ed29647606325706243bab85471867fea752"
+hash = "fdb80fdaccbed0acdd10267a7b1a18192dc244f64394a172d5812ce25807fafe"
 
 [[files]]
 file = "config/fancymenu/assets/menu_background.png"
@@ -357,7 +357,7 @@ hash = "7f5f22d9658afd2fb48b3800032954122fe16af18825077a84fa50f05a9bd7ce"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "e5bce3f9b7d8847d57ecdd45c93a6934235497b0670d3e1c13c3fde204c4b68d"
+hash = "c07163d4ec11844c04f61b1b753cf2d77810806f6bcbd0b0359d6f1e1c2bd0c9"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
