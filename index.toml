@@ -281,27 +281,19 @@ hash = "32a29b28b4fb028e850b2d80468dc49e19d5864a1d9bbc900afe2c7303bfe5dd"
 
 [[files]]
 file = "config/fancymenu/assets/discord_color.png"
-hash = "e33ef82e35224181a989706dffcd6f3915bd85f9211b5d9d0a7484280bf67dd1"
+hash = "6dec4832dbfa0e7a6d4e6000b4f8f3543c1d3dc5bda2e8d8c560c58d1831b3de"
 
 [[files]]
 file = "config/fancymenu/assets/discord_gray.png"
-hash = "4d52c9c0afa24465dc969b210c5b32c2b28447c00e561923dc9801fb1c291f6d"
+hash = "e3a73c7e2c67d9f99f8b74ade5abaf2b5e22d6df9542fd103d1a283735069d0f"
 
 [[files]]
 file = "config/fancymenu/assets/exit_color.png"
-hash = "49246c5e235e49012a85036cae7d3d93888f841de1e4e8b8c69c454f148fbc77"
+hash = "cc285f92f6c6164858551e02ca3b3e453e12fa916dd95d425cf25a3fe64b9ac6"
 
 [[files]]
 file = "config/fancymenu/assets/exit_gray.png"
-hash = "0b9a890fc81092f6e2ac91bbfbad4317361ded104947ba5e68e5b406b1ec3b78"
-
-[[files]]
-file = "config/fancymenu/assets/language_color.png"
-hash = "75ddc1ea26cc5cac28cd585af7d9fd8d78dbf2432d31a334f72f4918714a56c8"
-
-[[files]]
-file = "config/fancymenu/assets/language_gray.png"
-hash = "5e7f2aeb6d3a7189bcd725ad74cdb919ed0e0669db104fb7d145a9b1e4c67a75"
+hash = "5e89343a12762a9789b7704120697053286e371cffb18e6a94343b3dbcacdd86"
 
 [[files]]
 file = "config/fancymenu/assets/logo.png"
@@ -313,11 +305,11 @@ hash = "2b79da496d79920e281e329698e370bc097ed3bdb9f4f8f5dfa387bae2527d0b"
 
 [[files]]
 file = "config/fancymenu/assets/mods_color.png"
-hash = "cef362193563a0ca8881f5083b718256c35b1781fbf12e2d082cfad8cd777301"
+hash = "1fae2bc2b5c95d55d2ea85832225c523b2a81ef6969d5cb64f90a6c66a539932"
 
 [[files]]
 file = "config/fancymenu/assets/mods_gray.png"
-hash = "1fa3009beeccd41d1fa468886f3c7f13c7c327d0c7b7425bff1a5b1fe0119055"
+hash = "ea0db13e1d336c34053215a787fc98f0679332543e36234dbbd88426f3646957"
 
 [[files]]
 file = "config/fancymenu/assets/mojang.png"
@@ -325,27 +317,27 @@ hash = "0818c61f8669eef4e80664440155e02b9322f0e5fe035ab17a85c1e3b1f2f253"
 
 [[files]]
 file = "config/fancymenu/assets/multiplayer_color.png"
-hash = "c170264f3a0d1f4a8f5d7690a2000c12595d0fed95eff7e0896a82a758ddaaa5"
+hash = "e44b29be698c4485cb8f8036494d57f37110d2c02a0d0f0788a44e7d48c89fc7"
 
 [[files]]
 file = "config/fancymenu/assets/multiplayer_gray.png"
-hash = "66cd23851ebf5e162cb1b760b15bf36816c5ace1205fa5e1a2e87ee911f502bc"
+hash = "7f887338853020cd2645bb7cd7b524d29e812ea61fdc91c5f14a3080c064a85d"
 
 [[files]]
 file = "config/fancymenu/assets/options_color.png"
-hash = "9af2d1f190dbaa3b121709960fa3122b0e14a931c66e2482a1adb55cb8b302e6"
+hash = "f77588b14d037a230a8cd01499c637a7720dc92a1ce78035b8358810b4c5379a"
 
 [[files]]
 file = "config/fancymenu/assets/options_gray.png"
-hash = "62e1fffa6e6885db8d12aed47941971c0299ecc7e942b9dd947382cc5adb0938"
+hash = "886258154f1cca52e14a8885069f6e2972335c192ab5d64fbd4e11c7bc933a22"
 
 [[files]]
 file = "config/fancymenu/assets/singleplayer_color.png"
-hash = "f77d8d856998fa2f3df2509b44007db4f9961124082f131186b0e30cc0e6cf21"
+hash = "7f34918d6778f77b5f844e9ec4d8e2525c03dd0a3278a4c40022cfb6545060e2"
 
 [[files]]
 file = "config/fancymenu/assets/singleplayer_gray.png"
-hash = "4270ce4a4fc0d10552fe8d14e0c921c33f00363c3cf0853e8dd6664c70acd3b9"
+hash = "5556e493094421b27b2ee8ee41e1b43181475e9c9c0982d6f8b316a943f5b6ba"
 
 [[files]]
 file = "config/fancymenu/assets/star_loading.png"
@@ -365,7 +357,7 @@ hash = "7f5f22d9658afd2fb48b3800032954122fe16af18825077a84fa50f05a9bd7ce"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "e2e6d04d7dc6a920e9be8671d027414d0b2db0fadcf073162d2606ac23993c82"
+hash = "e5bce3f9b7d8847d57ecdd45c93a6934235497b0670d3e1c13c3fde204c4b68d"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
