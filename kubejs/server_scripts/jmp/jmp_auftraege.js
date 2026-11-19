@@ -450,6 +450,14 @@
   // Nicht player.persistentData: Der Name kollidiert mit NeoForges Entity.getPersistentData(),
   // dessen Daten beim Tod nicht kopiert werden.
   // ===================================================================
+  // UUID ueber das GameProfile (von KubeJS freigegeben), mit Rueckfaellen
+  function spielerId(p) {
+    try { let id = p.getProfile().getId(); if (id != null) return str(id) } catch (e) { }
+    try { let id = p.getGameProfile().getId(); if (id != null) return str(id) } catch (e) { }
+    try { let id = p.getUUID(); if (id != null) return str(id) } catch (e) { }
+    try { if (p.uuid != null) return str(p.uuid) } catch (e) { }
+    throw new Error("UUID des Spielers nicht lesbar")
+  }
   function spielerTag(server, uuid) {
     let root = serverDaten(server)
     if (!root.contains("spieler")) root.put("spieler", new $CompoundTag())
@@ -458,7 +466,7 @@
     return alle.getCompound(uuid)
   }
   function spielerDaten(player, z) {
-    let d = spielerTag(player.getServer(), str(player.getStringUUID()))
+    let d = spielerTag(player.getServer(), spielerId(player))
     if (d.getInt("tag") != z.tag || !d.contains("tag")) {
       d.putInt("tag", z.tag)
       d.putString("erledigtT", "")
@@ -484,10 +492,40 @@
   // INVENTAR
   // ===================================================================
   // Hauptinventar 0..35 und Nebenhand 40, keine Ruestung
+  // Rhino findet manche Vanilla-Methoden nicht (z. B. getStringUUID). Deshalb jeweils mit Rueckfall
+  // auf die KubeJS-eigenen Methoden.
+  function invGroesse(inv) {
+    try { return inv.getContainerSize() } catch (e) { }
+    try { return inv.getSlots() } catch (e) { }
+    return 36
+  }
+  function invSlot(inv, i) {
+    try { return inv.getItem(i) } catch (e) { }
+    return inv.getStackInSlot(i)
+  }
+  function stapelLeer(st) {
+    try { return st.isEmpty() } catch (e) { }
+    return stapelAnzahl(st) <= 0
+  }
+  function stapelAnzahl(st) {
+    try { return st.getCount() } catch (e) { }
+    return st.count
+  }
+  function stapelId(st) {
+    try { return itemId(st.getItem()) } catch (e) { }
+    return str(st.id)
+  }
+  function stapelBeschaedigt(st) {
+    try { return st.isDamaged() } catch (e) { return false }
+  }
+  function stapelVerringern(st, k) {
+    try { st.shrink(k); return } catch (e) { }
+    st.setCount(stapelAnzahl(st) - k)
+  }
   function slots(inv) {
     let s = []
     for (let i = 0; i < 36; i++) s.push(i)
-    if (inv.getContainerSize() > 40) s.push(40)
+    if (invGroesse(inv) > 40) s.push(40)
     return s
   }
   function passendeStacks(player, eintrag) {
@@ -495,9 +533,9 @@
     let treffer = []
     let summe = 0
     slots(inv).forEach(i => {
-      let st = inv.getItem(i)
-      if (st.isEmpty() || st.isDamaged()) return
-      if (eintrag.akzeptiert[itemId(st.getItem())]) { treffer.push(i); summe += st.getCount() }
+      let st = invSlot(inv, i)
+      if (st == null || stapelLeer(st) || stapelBeschaedigt(st)) return
+      if (eintrag.akzeptiert[stapelId(st)]) { treffer.push(i); summe += stapelAnzahl(st) }
     })
     return { slots: treffer, summe: summe }
   }
@@ -586,12 +624,13 @@
     let rest = a.menge
     gefunden.slots.forEach(i => {
       if (rest <= 0) return
-      let st = inv.getItem(i)
-      let k = Math.min(rest, st.getCount())
-      st.shrink(k)
+      let st = invSlot(inv, i)
+      let k = Math.min(rest, stapelAnzahl(st))
+      stapelVerringern(st, k)
       rest -= k
     })
-    inv.setChanged()
+    try { inv.setChanged() } catch (e) { }
+    try { player.sendInventoryUpdate() } catch (e) { }
     if (rest > 0) {
       // Darf nicht passieren, weil vorher gezaehlt wurde. Zur Sicherheit melden statt auszahlen.
       console.error(LOG + "Abgabe inkonsistent bei " + player.getUsername() + ", Rest " + rest)
@@ -651,25 +690,34 @@
     const Commands = event.commands
     const Arguments = event.arguments
 
-    let liste = ctx => {
+    // Fehler lesbar melden statt als rohe Exception
+    let sicher = (name, f) => ctx => {
+      try { return f(ctx) } catch (e) {
+        console.error(LOG + "Fehler in " + name + ": " + e + (e && e.stack ? "\n" + e.stack : ""))
+        ctx.source.sendSystemMessage(Text.red("Interner Fehler bei " + name + ": " + e))
+        return 0
+      }
+    }
+    let liste = sicher("/auftraege", ctx => {
       let p = ctx.source.getPlayer()
       if (p == null) { ctx.source.sendSystemMessage(Text.of("Nur fuer Spieler.")); return 0 }
       return zeigeAuftraege(p)
-    }
+    })
 
     event.register(Commands.literal("auftraege").executes(liste))
     event.register(Commands.literal("auftrag")
       .executes(liste)
       .then(Commands.literal("abgeben")
         .then(Commands.argument("nr", Arguments.INTEGER.create(event))
-          .executes(ctx => {
+          .executes(sicher("/auftrag abgeben", ctx => {
             let p = ctx.source.getPlayer()
             if (p == null) return 0
             return abgeben(p, Arguments.INTEGER.getResult(ctx, "nr"))
-          })))
+          }))))
       .then(Commands.literal("debug")
         .requires(src => src.hasPermission(2))
-        .then(Commands.literal("pool").executes(ctx => debugPool(ctx.source)))
+        .then(Commands.literal("pool").executes(sicher("debug pool", ctx => debugPool(ctx.source))))
+        .then(Commands.literal("selbsttest").executes(sicher("debug selbsttest", ctx => selbsttest(ctx.source))))
         .then(Commands.literal("neuaufbau").executes(ctx => {
           pool = null; poolFehler = null; planCache = {}
           holePool()
@@ -681,7 +729,7 @@
             .executes(ctx => {
               let p = Arguments.PLAYER.getResult(ctx, "spieler")
               let root = serverDaten(p.getServer())
-              if (root.contains("spieler")) root.getCompound("spieler").remove(str(p.getStringUUID()))
+              if (root.contains("spieler")) root.getCompound("spieler").remove(spielerId(p))
               ctx.source.sendSystemMessage(Text.of("Auftragsstand von " + p.getUsername() + " zurueckgesetzt."))
               return 1
             })))
@@ -690,6 +738,45 @@
           .then(Commands.argument("anzahl", Arguments.INTEGER.create(event))
             .executes(ctx => verschiebeTag(ctx.source, Arguments.INTEGER.getResult(ctx, "anzahl")))))))
   })
+
+  // Prueft alle Spieler-Aufrufe, ohne etwas zu veraendern
+  function selbsttest(src) {
+    let p = src.getPlayer()
+    let antwort = (ok, t) => src.sendSystemMessage(ok ? Text.green("OK ").append(Text.of(t)) : Text.red("FEHLER ").append(Text.of(t)))
+    if (p == null) { src.sendSystemMessage(Text.of("Nur als Spieler ausfuehren.")); return 0 }
+    let schritt = (name, f) => {
+      try { antwort(true, name + ": " + f()); return true } catch (e) { antwort(false, name + ": " + e); return false }
+    }
+    schritt("Pool", () => holePool().length + " Eintraege, Muenzen " + (muenzenOk ? "vorhanden" : "FEHLEN"))
+    schritt("Server", () => str(p.getServer() != null))
+    schritt("Name", () => str(p.getUsername()))
+    schritt("UUID", () => spielerId(p))
+    schritt("Spielerdaten", () => {
+      let akt = aktuelleAuftraege(p.getServer())
+      let d = spielerDaten(p, akt.zeit)
+      return "Tag " + d.getInt("tag") + ", verdient " + d.getInt("verdientW")
+    })
+    schritt("Inventar", () => {
+      let inv = p.getInventory()
+      let belegt = 0, beispiel = ""
+      slots(inv).forEach(i => {
+        let st = invSlot(inv, i)
+        if (st != null && !stapelLeer(st)) {
+          belegt++
+          if (!beispiel) beispiel = stapelAnzahl(st) + "x " + stapelId(st) + (stapelBeschaedigt(st) ? " (beschaedigt)" : "")
+        }
+      })
+      return invGroesse(inv) + " Slots, " + belegt + " belegt" + (beispiel ? ", z. B. " + beispiel : "")
+    })
+    schritt("Text", () => {
+      let akt = aktuelleAuftraege(p.getServer())
+      if (akt.liste.length == 0) return "keine Auftraege"
+      p.tell(auftragZeile(akt.liste[0], false))
+      return "Zeile oben angezeigt"
+    })
+    schritt("Muenz-Item", () => str(Item.of(MUENZEN[2].id, 1)))
+    return 1
+  }
 
   function verschiebeTag(src, n) {
     let d = serverDaten(src.getServer())

@@ -11,6 +11,7 @@ Täglich 3 Aufträge, wöchentlich 1. Abgabe gegen Numismatics-Münzen (Items, k
 | `/auftraege` oder `/auftrag` | alle | Liste mit Status, Belohnung, Restzeit, klickbarem "[Abgeben]" |
 | `/auftrag abgeben <nr>` | alle | Items aus dem Inventar abziehen, Münzen auszahlen |
 | `/auftrag debug pool` | OP | Pool je Mod/Stufe/Familie, Wochenplan, Vielfalt; vollständige Liste ins Log |
+| `/auftrag debug selbsttest` | OP | Prüft UUID, Spielerdaten, Inventar, Text und Münzen, ohne etwas zu verändern |
 | `/auftrag debug neuaufbau` | OP | Pool neu aus der Registry bauen |
 | `/auftrag debug reset <spieler>` | OP | Auftragsstand eines Spielers löschen |
 | `/auftrag debug tag [anzahl]` | OP | Tag vorspulen (Standard 1, negativ zurück). Wirkt für alle Spieler. |

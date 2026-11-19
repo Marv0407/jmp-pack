@@ -14773,7 +14773,7 @@ hash = "f9584b9a7ecdc9c084c100cfafbf582f084a1947be4d2b97e9f1bb01074584ad"
 
 [[files]]
 file = "kubejs/server_scripts/jmp/jmp_auftraege.js"
-hash = "ba581eb5ed8b0b4fb57fdd219da506e7d15b9aa1e46735b603b11990c5ac6271"
+hash = "df80388f7e683bbcf4240b463e4fe9537e973568b70fea7643c9c45542d4bd47"
 
 [[files]]
 file = "kubejs/server_scripts/modpack/atm_alloy_tools.js"
