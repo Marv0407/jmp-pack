@@ -1,6 +1,6 @@
 name = "I'm Fast"
 filename = "imfast-NEOFORGE-1.21.1-1.0.3.jar"
-side = "both"
+side = "client"
 
 [download]
 url = "https://marv0407.github.io/jmp-pack/files/imfast-NEOFORGE-1.21.1-1.0.3.jar"
