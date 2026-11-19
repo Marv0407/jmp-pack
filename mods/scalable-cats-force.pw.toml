@@ -1,6 +1,6 @@
 name = "Scalable Cat's Force"
 filename = "ScalableCatsForce-NeoForge-3.7.1-build-11-with-library.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
