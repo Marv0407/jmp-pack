@@ -15974,7 +15974,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloud-glass.pw.toml"
-hash = "7d62616f2e21a82675575de6a9375d8a33b9df448eb137d81a33a8d4f3877244"
+hash = "fad6c2abc3d45a00319322b9c6e5562ea13464de95adaee08a9a3b25c4dc4eb4"
 metafile = true
 
 [[files]]
@@ -17844,7 +17844,7 @@ metafile = true
 
 [[files]]
 file = "mods/trashslot.pw.toml"
-hash = "73f023021232d7d230b59ceaed24d506e3797c3c1c76bab32cd883eec9deb523"
+hash = "b1908d3251d722ec5c18f2483b8c56743d7cae91f644caa6d82e1b3b5b64f604"
 metafile = true
 
 [[files]]
