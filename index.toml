@@ -18018,6 +18018,10 @@ hash = "9b948bc861e74cb6c0504f4a6aca85b93d5b70ff6cdbc3625c8ef93dc7bf517d"
 metafile = true
 
 [[files]]
+file = "server-icon.png"
+hash = "6ff2721a82aa474639ab41008e2503549ddb60f5c9202d4541797b181c67938c"
+
+[[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
 metafile = true
