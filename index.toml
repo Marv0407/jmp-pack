@@ -14772,6 +14772,10 @@ file = "kubejs/server_scripts/debug/freeze_server.js"
 hash = "f9584b9a7ecdc9c084c100cfafbf582f084a1947be4d2b97e9f1bb01074584ad"
 
 [[files]]
+file = "kubejs/server_scripts/jmp/jmp_auftraege.js"
+hash = "ba581eb5ed8b0b4fb57fdd219da506e7d15b9aa1e46735b603b11990c5ac6271"
+
+[[files]]
 file = "kubejs/server_scripts/modpack/atm_alloy_tools.js"
 hash = "7410a92499757fd00ed5b275cc54c98dc07334c792372e6dc303b6a7c60fae63"
 
