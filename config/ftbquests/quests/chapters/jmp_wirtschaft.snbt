@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jmp_wirtschaft"
+	group: "5320D9F841FB059F"
+	icon: {
+		id: "numismatics:cog"
+	}
+	id: "F06F054E85EFEDB2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "14BEDC39DA9990EC"
+			rewards: [{
+				id: "0C2A5A0FB6D8BF10"
+				item: { count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "14C107D2D2637A43"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14BEDC39DA9990EC"]
+			id: "DB269ECA65718BC2"
+			rewards: [{
+				id: "C23FDD8527CBD1B9"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "B4F91DABFE069D60"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["DB269ECA65718BC2"]
+			id: "2F58380EFA413E33"
+			rewards: [{
+				id: "32A5E535144EE2B1"
+				item: { count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2E5D27F1D4CEC308"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2F58380EFA413E33"]
+			id: "89A4E36E93550A98"
+			rewards: [{
+				id: "AE424B01E3040038"
+				item: { count: 3, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0785BEB92F7BB195"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["14BEDC39DA9990EC"]
+			id: "97A81F2DF1DF1E1E"
+			rewards: [{
+				id: "8D2E5A7FA8D479FE"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "C731A2766F9307CD"
+				item: { count: 1, id: "numismatics:white_card" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["97A81F2DF1DF1E1E"]
+			id: "23CDC528347EF527"
+			rewards: [{
+				id: "6978FA57A04D8FFC"
+				item: { count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A8EA44ECFE3CAC4"
+				item: { count: 1, id: "numismatics:bank_terminal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["23CDC528347EF527"]
+			id: "86E90FF8694EC1F2"
+			rewards: [{
+				id: "397F24F4A836AA3C"
+				item: { count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "092099FF89F81CED"
+				item: { count: 1, id: "numismatics:vendor" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["23CDC528347EF527"]
+			id: "489238C21A9E9430"
+			rewards: [{
+				id: "23F6907029D5AACC"
+				item: { count: 2, id: "numismatics:cog" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "EF8E64C1DA1BB39B"
+				item: { count: 1, id: "stockmarket:market_terminal" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	quest.14BEDC39DA9990EC.title: "Willkommen in der Wirtschaft"
+	quest.14BEDC39DA9990EC.quest_subtitle: "Startgeld abholen"
+	quest.14BEDC39DA9990EC.quest_desc: ["Auf JMP gibt es eine eigene Währung (&6Create Numismatics&r) und eine Börse (&6Create Stock Market&r). Damit niemand bei null anfängt, bekommst du hier Startgeld.", "Münzwerte: Spur 1, Bevel 8, Sprocket 16, Cog 64, Crown 512, Sun 4096.", "Unten findest du Lieferaufträge für schnelles Geld. Oben der Weg zu Bankkarte, Terminal, Laden und Börse."]
+	quest.DB269ECA65718BC2.title: "Auftrag: Eisen"
+	quest.DB269ECA65718BC2.quest_subtitle: "Erste Lieferung"
+	quest.DB269ECA65718BC2.quest_desc: ["Die Wirtschaft kauft Rohstoffe. Liefere &b64 Eisenbarren&r ab. Dieser Auftrag gilt einmal pro Spieler."]
+	quest.2F58380EFA413E33.title: "Auftrag: Gold"
+	quest.2F58380EFA413E33.quest_subtitle: "Zweite Lieferung"
+	quest.2F58380EFA413E33.quest_desc: ["Liefere &b32 Goldbarren&r ab. Dieser Auftrag gilt einmal pro Spieler."]
+	quest.89A4E36E93550A98.title: "Auftrag: Diamanten"
+	quest.89A4E36E93550A98.quest_subtitle: "Dritte Lieferung"
+	quest.89A4E36E93550A98.quest_desc: ["Liefere &b16 Diamanten&r ab. Dieser Auftrag gilt einmal pro Spieler."]
+	quest.97A81F2DF1DF1E1E.title: "Bankkarte"
+	quest.97A81F2DF1DF1E1E.quest_subtitle: "Zugang zu deinem Konto"
+	quest.97A81F2DF1DF1E1E.quest_desc: ["Mit der Bankkarte greifst du auf dein Konto zu. Rechtsklick bindet sie an dich.", "Du brauchst dafür einen &6Precision Mechanism&r aus Create. Die Karte gibt es in allen Farben, für diese Quest zählt die weiße."]
+	quest.23CDC528347EF527.title: "Bank Terminal"
+	quest.23CDC528347EF527.quest_subtitle: "Konto verwalten"
+	quest.23CDC528347EF527.quest_desc: ["Am Terminal siehst du dein Guthaben, zahlst Münzen ein und hebst sie ab.", "Rezept: Precision Mechanism, Industrial Iron Block und Electron Tube (formlos)."]
+	quest.86E90FF8694EC1F2.title: "Der eigene Laden"
+	quest.86E90FF8694EC1F2.quest_subtitle: "Vendor aufstellen"
+	quest.86E90FF8694EC1F2.quest_desc: ["Mit dem Vendor baust du einen eigenen Laden. &7Shift-Rechtsklick&r zum Einstellen, &7Rechtsklick&r zum Handeln. Lege eine Bankkarte hinein, dann landet das Geld direkt auf deinem Konto.", "Rezept: Framed Glass, Brass Casing und Electron Tube übereinander."]
+	quest.489238C21A9E9430.title: "Die Börse"
+	quest.489238C21A9E9430.quest_subtitle: "Aktien kaufen und verkaufen"
+	quest.489238C21A9E9430.quest_desc: ["Am &6Market Terminal&r handelst du mit Aktien. Die Kurse schwanken, mit etwas Glück vermehrst du dein Geld. Das Geld kommt von deinem Bankkonto.", "Das &6Market Remote&r öffnet die Börse von überall. Schau dir die Kurse erst an, bevor du Geld einsetzt."]
+}

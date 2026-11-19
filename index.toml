@@ -409,7 +409,7 @@ hash = "1b0e96a995d9ede7a9ff4b6d2cd3f99817c50313a0de44cb97565b55a8a61e84"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "72fb912b25e10631f31f6133c99fe31e558ded14db7d7ab19f13a88177ac030d"
+hash = "08636522d27ca1c41019ffbeac6bc5ad819ba82e36fa7bfb37628c59d064f8c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/achapter_2r_6the_atm_star.snbt"
@@ -560,6 +560,10 @@ file = "config/ftbquests/quests/chapters/iron_spells_and_spellbooks.snbt"
 hash = "000d2d77cfc84717ee9a67e801efa94496f7f66bcf3096ef6550b9b392dab972"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/jmp_wirtschaft.snbt"
+hash = "bebff750f84a6c433a0dc2bfe4b44593deea13b68651f69363b3496704f9439a"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/justdirethings.snbt"
 hash = "aa10053de57e44544528ad738c1c60b0b0dae73bf907d6ac9ed6b235108163ed"
 
@@ -693,11 +697,11 @@ hash = "6bd501bab5da4a5e1e6fe453bccbc596312bd614fca062c742b9f9dc0ebf0ae2"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter.snbt"
-hash = "630a35fed0d22e5b4d367ed20b47fc5886dbe5e6e890aad22c5ea320ceddbd2a"
+hash = "e4a5ff10ac36a2456a2af6858e26fc294ab0db21990f405c6d42e658735f048a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapter_group.snbt"
-hash = "ebcb21f28d539548b230846d12c5c0f142f6ee6922c0ee94ec972d0a9879f19b"
+hash = "6b905f8d388db23bde2435a17f5d13248a8aeabe6a71cba0caedd6f1d60a916d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/achapter_2r_6the_atm_star.snbt"
@@ -846,6 +850,10 @@ hash = "9af4f5f1841be7ecda0a8d86aa2c4b5608f2486fe165eda132269d75d410bd3c"
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/iron_spells_and_spellbooks.snbt"
 hash = "011b7273166c0ae7b9e249d4ff4c5583dee6a5b9a1aa5511ffc4102ceb937cdb"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us/chapters/jmp_wirtschaft.snbt"
+hash = "d6aa9f485503d0fb8571cebd1d0a4c4b5c8bbee59f2d5e7837b623056ddff1c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us/chapters/justdirethings.snbt"
