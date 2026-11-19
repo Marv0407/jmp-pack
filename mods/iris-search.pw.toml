@@ -1,6 +1,6 @@
 name = "Iris & Oculus Search"
 filename = "IrisSearch-1.8.4-neoforge.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

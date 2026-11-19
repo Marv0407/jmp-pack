@@ -1,6 +1,6 @@
 name = "Bridging Mod"
 filename = "BridgingMod-2.6.2+1.21.1.neoforge-release.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"

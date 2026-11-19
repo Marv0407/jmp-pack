@@ -1,6 +1,6 @@
 name = "FlickerFix"
 filename = "flickerfix-1.21.1-6.1.0.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
