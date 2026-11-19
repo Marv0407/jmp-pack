@@ -18,8 +18,8 @@ customization {
 }
 customization {
   action = autoscale
-  basewidth = 960
-  baseheight = 540
+  basewidth = 1920
+  baseheight = 1080
 }
 
 menu_background {
