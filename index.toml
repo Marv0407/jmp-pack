@@ -16938,6 +16938,11 @@ hash = "c6d780efe2fcb3f0212dfa7b36d3c46cdf6a40789149f03bdf9d3479214097cf"
 metafile = true
 
 [[files]]
+file = "mods/mc2discord.pw.toml"
+hash = "6006b5a2d814e7055a221c7647d4e3dc97a90a2bd09f445cc6072541b8de6243"
+metafile = true
+
+[[files]]
 file = "mods/mcjtylib.pw.toml"
 hash = "2ab9d8a4aab8a8ffc32d44e5ddb5f4c6fd51aed37782fbdaa559e8f7dabe23ef"
 metafile = true
