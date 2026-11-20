@@ -874,7 +874,9 @@
 				"1705175C20CE91DD"
 			]
 			id: "4C40699E0A9A5BE6"
-			rewards: [{
+			rewards: [
+				{ id: "D2D4D7A7D576E527", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "37D1BCD58A0ADD85"
 				type: "xp"
 				xp: 10
@@ -976,7 +978,9 @@
 				id: "justdirethings:eclipsealloy_sword"
 			}
 			id: "37B903620493A354"
-			rewards: [{
+			rewards: [
+				{ id: "4B551EEFDA05EE77", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "1D41C9C2D0883E47"
 				type: "xp"
 				xp: 10
@@ -1312,7 +1316,9 @@
 				id: "justdirethings:eclipsealloy_pickaxe"
 			}
 			id: "0C9DD8E53A1B92C0"
-			rewards: [{
+			rewards: [
+				{ id: "1670CCB882AFC50A", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "56744D1A734EE2EC"
 				type: "xp"
 				xp: 10
@@ -1338,7 +1344,9 @@
 				id: "justdirethings:eclipsealloy_axe"
 			}
 			id: "78840993C7832E89"
-			rewards: [{
+			rewards: [
+				{ id: "D1E5CA79C19CF78C", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "75251C6FAFD9043B"
 				type: "xp"
 				xp: 10
@@ -1364,7 +1372,9 @@
 				id: "justdirethings:eclipsealloy_shovel"
 			}
 			id: "703BDCDC88DD813C"
-			rewards: [{
+			rewards: [
+				{ id: "3E6045D4A8316071", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "5C0CAF91F718BE39"
 				type: "xp"
 				xp: 10
@@ -1390,7 +1400,9 @@
 				id: "justdirethings:eclipsealloy_hoe"
 			}
 			id: "3138B83ABC2930F9"
-			rewards: [{
+			rewards: [
+				{ id: "E4ABB1588C23F2EF", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "66623E1B98D199F6"
 				type: "xp"
 				xp: 10
@@ -1416,7 +1428,9 @@
 				id: "justdirethings:eclipsealloy_paxel"
 			}
 			id: "6A4D31194C4CE156"
-			rewards: [{
+			rewards: [
+				{ id: "A2174B89B54BBAB9", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "07FB2D5699FE0C48"
 				type: "xp"
 				xp: 10
@@ -1818,7 +1832,9 @@
 				id: "justdirethings:eclipsegate_wand"
 			}
 			id: "5B02719C13B1FFE2"
-			rewards: [{
+			rewards: [
+				{ id: "0B21E27BCD8DBB5A", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "55ED2A130C7D3610"
 				type: "xp"
 				xp: 10
@@ -2072,6 +2088,7 @@
 			]
 			id: "49EF8A4346AEF582"
 			rewards: [
+				{ id: "BCCC27AC0DAF9CDD", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "0DF8F18D6C6D362C"
 					item: {
@@ -2169,7 +2186,9 @@
 				id: "justdirethings:eclipsealloy_chestplate"
 			}
 			id: "5A1AB1AD7DEFDD9A"
-			rewards: [{
+			rewards: [
+				{ id: "C57114CCB9DB36AC", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "0F79DCAB85BF9A80"
 				type: "xp"
 				xp: 10
@@ -2195,7 +2214,9 @@
 				id: "justdirethings:eclipsealloy_helmet"
 			}
 			id: "0A02DBE226C3F44E"
-			rewards: [{
+			rewards: [
+				{ id: "77B8F9FB261794C4", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "16AC759DF94D2EC0"
 				type: "xp"
 				xp: 10
@@ -2221,7 +2242,9 @@
 				id: "justdirethings:eclipsealloy_leggings"
 			}
 			id: "2A919F73CB09CF8B"
-			rewards: [{
+			rewards: [
+				{ id: "F50881A4AE3DD5F7", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "0D0CE0A457532A78"
 				type: "xp"
 				xp: 10
@@ -2247,7 +2270,9 @@
 				id: "justdirethings:eclipsealloy_boots"
 			}
 			id: "1FFA1DA6A5EA4E70"
-			rewards: [{
+			rewards: [
+				{ id: "6E03561E17C4B204", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "50B300DF12C87CAB"
 				type: "xp"
 				xp: 10
@@ -2841,7 +2866,9 @@
 		{
 			dependencies: ["73552A4BA0687962"]
 			id: "454662617304E299"
-			rewards: [{
+			rewards: [
+				{ id: "F009B779D7F85B30", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "6ADAC16BC111EAB2"
 				type: "xp"
 				xp: 10
@@ -2988,6 +3015,7 @@
 			]
 			id: "1EA02BA24AF02256"
 			rewards: [
+				{ id: "E7B8D40CA88E0CD1", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "451158C8664F6BBF"
 					item: {
@@ -3111,6 +3139,7 @@
 			]
 			id: "76B1C5AFC5D6B7CF"
 			rewards: [
+				{ id: "9DFA53FEF7DFEBA9", item: { count: 2, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "58FCDEDEC85FBFC2"
 					item: {
@@ -3143,6 +3172,7 @@
 			]
 			id: "41E8C93A44559E48"
 			rewards: [
+				{ id: "C0E7ED6F04B3738D", item: { count: 2, id: "numismatics:cog" }, type: "item" }
 				{
 					count: 9
 					id: "1A51616F0BF9D119"
@@ -3175,6 +3205,7 @@
 			hide_dependent_lines: true
 			id: "48E4D75FD3145AD6"
 			rewards: [
+				{ id: "043FA804E8DF459B", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "3F97CDC52897BBDE"
 					item: {
@@ -3289,7 +3320,9 @@
 				"1705175C20CE91DD"
 			]
 			id: "71128E508D810DDF"
-			rewards: [{
+			rewards: [
+				{ id: "BB37638B99765B40", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "47E76B4CCAAE37D9"
 				type: "xp"
 				xp: 10

@@ -333,7 +333,9 @@
 		{
 			dependencies: ["445C21949ADA1FE3"]
 			id: "3DCD38634176BD92"
-			rewards: [{
+			rewards: [
+				{ id: "41EBCB2F1C4876DC", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				id: "7799ADC405111DE6"
 				item: {
 					count: 1
@@ -353,7 +355,9 @@
 		{
 			dependencies: ["3DCD38634176BD92"]
 			id: "27CF1A2587321A2C"
-			rewards: [{
+			rewards: [
+				{ id: "9576A319E3258A24", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "7A6B5A61207C8054"
 				item: {
 					count: 1
@@ -1502,6 +1506,7 @@
 			}
 			id: "0436DF3308681913"
 			rewards: [
+				{ id: "A3A2BE3439FE76BE", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					count: 5
 					id: "03C23C77EF25C4C0"
@@ -1563,7 +1568,9 @@
 				id: "minecraft:totem_of_undying"
 			}
 			id: "68B44B9E939F4228"
-			rewards: [{
+			rewards: [
+				{ id: "2EAEFD063D8B32BE", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 3
 				id: "0984DAB8E3603A83"
 				item: {
@@ -1619,7 +1626,9 @@
 				id: "minecraft:potion"
 			}
 			id: "548F85EE6B6F1811"
-			rewards: [{
+			rewards: [
+				{ id: "9264DBA3529696E4", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 3
 				id: "4EBAE4CBE310C358"
 				item: {
@@ -1670,7 +1679,9 @@
 				id: "minecraft:fire_charge"
 			}
 			id: "59E68086A8B99EA7"
-			rewards: [{
+			rewards: [
+				{ id: "E21C29BB35017A27", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 3
 				id: "7FEA8FCAF3452395"
 				item: {
@@ -1721,7 +1732,9 @@
 				id: "minecraft:snowball"
 			}
 			id: "555ED1E39131D91B"
-			rewards: [{
+			rewards: [
+				{ id: "73913378ABEE02AD", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 3
 				id: "6DA1755FA3A0E77F"
 				item: {
@@ -1775,7 +1788,9 @@
 				id: "irons_spellbooks:armor_pile"
 			}
 			id: "395A33977B18B9AD"
-			rewards: [{
+			rewards: [
+				{ id: "A2465748B870736E", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 5
 				id: "09AA886DDCA0ECD2"
 				item: {
@@ -1813,7 +1828,9 @@
 				id: "irons_spellbooks:scroll"
 			}
 			id: "300F2E45D185A9A1"
-			rewards: [{
+			rewards: [
+				{ id: "73EC750F3A9FAD9F", item: { count: 2, id: "numismatics:cog" }, type: "item" }
+				{
 				count: 10
 				id: "5BEC54791A7352FB"
 				item: {
@@ -1864,7 +1881,9 @@
 				id: "minecraft:golden_apple"
 			}
 			id: "7F85669FEA41CD97"
-			rewards: [{
+			rewards: [
+				{ id: "765A8CD3FC6703FC", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 3
 				id: "061AE7083D11867A"
 				item: {
@@ -2131,6 +2150,7 @@
 			dependencies: ["373EBEB2E96D9361"]
 			id: "420CB9502DF8E1BC"
 			rewards: [
+				{ id: "424B72F19920645D", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					count: 3
 					id: "6FB92A3F70AD6C39"
@@ -2166,7 +2186,9 @@
 			]
 			hide_dependency_lines: true
 			id: "25F79B40579B3909"
-			rewards: [{
+			rewards: [
+				{ id: "7EB9DFA7BEC3BEEE", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				id: "73253859ADB67C83"
 				type: "xp_levels"
 				xp_levels: 1
@@ -2211,7 +2233,9 @@
 				"294418130521FDF4"
 			]
 			id: "0474C15D3AE3C2C9"
-			rewards: [{
+			rewards: [
+				{ id: "7160BCC95F58EF3E", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "7B8247742A47E274"
 				type: "xp_levels"
 				xp_levels: 1
@@ -2233,6 +2257,7 @@
 			hide_dependent_lines: true
 			id: "4567A27C53A01903"
 			rewards: [
+				{ id: "1A3DCDFE055807AC", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "3F677A43F2F2226F"
 					item: {
@@ -2593,6 +2618,7 @@
 			]
 			id: "00D80AA4CDD8335C"
 			rewards: [
+				{ id: "939BB33557BCFA0F", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					count: 4
 					id: "10D22680BF548062"
@@ -2628,6 +2654,7 @@
 			]
 			id: "36B283532D70776A"
 			rewards: [
+				{ id: "29B921ED96A36ECC", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					count: 4
 					id: "1D19F0CC330A0C97"
@@ -2699,7 +2726,9 @@
 		{
 			dependencies: ["395A33977B18B9AD"]
 			id: "71F0E9C36AA02B46"
-			rewards: [{
+			rewards: [
+				{ id: "75118D734E70333A", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 3
 				id: "4F30E29EF13EB77B"
 				item: {
@@ -2755,7 +2784,9 @@
 		{
 			dependencies: ["0436DF3308681913"]
 			id: "3181D07337DEFD14"
-			rewards: [{
+			rewards: [
+				{ id: "57EB25A56B8C7D3C", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "58D611B47B330F14"
 				item: {
 					count: 1

@@ -695,6 +695,7 @@
 			dependencies: ["4BF7F82F1C8680B9"]
 			id: "24E124F12CFF2A50"
 			rewards: [
+				{ id: "CE142EC0E473814D", item: { count: 2, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "510FE969F9005DDD"
 					item: {
@@ -768,6 +769,7 @@
 			dependencies: ["52007C01B52F7295"]
 			id: "0D2F07FC0F804223"
 			rewards: [
+				{ id: "D8CD12BF6CE10DE2", item: { count: 2, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "3767B08F0AB63105"
 					item: {
@@ -1068,6 +1070,7 @@
 			dependencies: ["5A5D4DFE4175FB42"]
 			id: "08E4892F96828EC4"
 			rewards: [
+				{ id: "50344ED3D23E2F04", item: { count: 2, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "2C3966BD1F4DB0EA"
 					item: {
@@ -1115,7 +1118,9 @@
 		{
 			dependencies: ["4BF7F82F1C8680B9"]
 			id: "29E6EFC8C19912BD"
-			rewards: [{
+			rewards: [
+				{ id: "D782B55355058B78", item: { count: 2, id: "numismatics:cog" }, type: "item" }
+				{
 				count: 10
 				id: "48D64D8F4AA35563"
 				item: {
@@ -1168,7 +1173,9 @@
 			dependencies: ["24E124F12CFF2A50"]
 			hide_dependent_lines: true
 			id: "3DB036804AD70497"
-			rewards: [{
+			rewards: [
+				{ id: "989303E79C256048", item: { count: 2, id: "numismatics:cog" }, type: "item" }
+				{
 				count: 3
 				id: "775DC985937BBBD4"
 				item: {
@@ -1310,7 +1317,9 @@
 			dependencies: ["0D2F07FC0F804223"]
 			hide_dependent_lines: true
 			id: "26D6FC091B7A8B38"
-			rewards: [{
+			rewards: [
+				{ id: "07525A5537FEA92A", item: { count: 3, id: "numismatics:cog" }, type: "item" }
+				{
 				count: 3
 				id: "1E5AAAB1AC6A0FA2"
 				item: {
@@ -1469,6 +1478,7 @@
 			dependencies: ["5900ADCC247CD5F9"]
 			id: "52007C01B52F7295"
 			rewards: [
+				{ id: "DE9E291019084A93", item: { count: 2, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "322C3D72F8200E9C"
 					item: {
@@ -1523,7 +1533,9 @@
 			dependencies: ["08E4892F96828EC4"]
 			hide_dependent_lines: true
 			id: "5C6BA6BBEC75EB71"
-			rewards: [{
+			rewards: [
+				{ id: "0888CD8F13310A4E", item: { count: 2, id: "numismatics:cog" }, type: "item" }
+				{
 				count: 3
 				id: "423A3307E222FD1D"
 				item: {

@@ -660,6 +660,7 @@
 			dependencies: ["35629CB10DBDE340"]
 			id: "7FF3EA602FE7A546"
 			rewards: [
+				{ id: "86B6566AE0ECA809", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "3147F125E31B45A3"
 					item: {
@@ -738,7 +739,9 @@
 				"736F4A43EEBDD7B3"
 			]
 			id: "4A01C5F5DCF32C19"
-			rewards: [{
+			rewards: [
+				{ id: "8444C3229AFF01E6", item: { count: 2, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "2B9557AF128E187F"
 				item: {
 					components: {
@@ -1098,7 +1101,9 @@
 				"736F4A43EEBDD7B3"
 			]
 			id: "13B338F377951032"
-			rewards: [{
+			rewards: [
+				{ id: "808286055A41F577", item: { count: 2, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "149CB5013C711CE8"
 				item: {
 					components: {
@@ -1145,7 +1150,9 @@
 		{
 			dependencies: ["736F4A43EEBDD7B3"]
 			id: "78BCED8699ADEDF4"
-			rewards: [{
+			rewards: [
+				{ id: "2E220923276C4224", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				count: 10
 				id: "4AE84DFE82B6C2E5"
 				item: {
@@ -1195,7 +1202,9 @@
 				id: "deeperdarker:stalker_spawn_egg"
 			}
 			id: "4D57A07592AED307"
-			rewards: [{
+			rewards: [
+				{ id: "44E94ABF8A85E83C", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "0943536DF4131FC5"
 				type: "xp_levels"
 				xp_levels: 10
@@ -1249,7 +1258,9 @@
 				id: "minecraft:grass_block"
 			}
 			id: "5C983A41886A2B75"
-			rewards: [{
+			rewards: [
+				{ id: "A7CE9EFA1E9E04B6", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "21CCCCFAFE11D501"
 				type: "xp_levels"
 				xp_levels: 1
@@ -1268,7 +1279,9 @@
 		{
 			dependencies: ["35629CB10DBDE340"]
 			id: "5866438E5D19AB69"
-			rewards: [{
+			rewards: [
+				{ id: "568080FDD7FA44E7", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "73913D21239C5722"
 				item: {
 					count: 1

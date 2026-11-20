@@ -2185,6 +2185,7 @@
 			dependencies: ["68B604EF40198B8D"]
 			id: "584BD9A6F7594867"
 			rewards: [
+				{ id: "3A4CCBF06AB97A44", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "553724173203A123"
@@ -2382,6 +2383,7 @@
 			dependencies: ["03798EF7AB47BB3D"]
 			id: "63E57D2745D24761"
 			rewards: [
+				{ id: "976ADECAA0A29D96", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "4E00D9EA078233CE"
@@ -2406,6 +2408,7 @@
 			dependencies: ["2DD9994665799747"]
 			id: "11F0D662FF4DC335"
 			rewards: [
+				{ id: "AD87F69D32E71996", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "0869AE48992AACA7"
@@ -2506,6 +2509,7 @@
 			dependencies: ["6EFB4BF8110F2712"]
 			id: "4449AD53BCE797E1"
 			rewards: [
+				{ id: "FC8837B32EE66AFA", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "14DFF6417C3A2982"
@@ -2535,6 +2539,7 @@
 			hide_dependency_lines: true
 			id: "379EBE12E3F61679"
 			rewards: [
+				{ id: "3589AEB8A0970663", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "4628C572883B4735"
@@ -2559,6 +2564,7 @@
 			dependencies: ["379EBE12E3F61679"]
 			id: "335927C2D234451A"
 			rewards: [
+				{ id: "5D01765A29A14DEE", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "7870CE9274C8B1E9"
@@ -2583,6 +2589,7 @@
 			dependencies: ["03442045ED56068F"]
 			id: "36B14701D95C3C21"
 			rewards: [
+				{ id: "DDAC8A6DB273DBD0", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "03ADA0DDF99F29A6"
@@ -2607,6 +2614,7 @@
 			dependencies: ["24EE138780C43447"]
 			id: "5A7C92F05AF39FDB"
 			rewards: [
+				{ id: "4EACCD8C446227C8", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "612FB730577BC7F4"
@@ -2631,6 +2639,7 @@
 			dependencies: ["28EE8C172F9DF5C1"]
 			id: "637A8E4BBF108417"
 			rewards: [
+				{ id: "D46A7824320716DD", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "33E8FCF6F8E7CB05"
@@ -2655,6 +2664,7 @@
 			dependencies: ["0FFF2BEE5D8EBE12"]
 			id: "341486C9F277FEB7"
 			rewards: [
+				{ id: "B0475F1FD87AEA00", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "0FD775B49FC7AD8C"
@@ -2680,6 +2690,7 @@
 			dependencies: ["39386F88CB38CF36"]
 			id: "760F80E1C273C0AD"
 			rewards: [
+				{ id: "3EB0B6D3656367C7", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "046DDDDCAAF2BCEB"
@@ -2707,6 +2718,7 @@
 			]
 			id: "348FEC9A50C2E62E"
 			rewards: [
+				{ id: "26665F7FA310A534", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "461364E687D0F236"
@@ -2789,6 +2801,7 @@
 			]
 			id: "7EBA36EF1858F428"
 			rewards: [
+				{ id: "CC3CCDC848C8A3EE", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "32898EFFF794C2B0"
@@ -2840,6 +2853,7 @@
 			]
 			id: "503CD7E104C8BA5D"
 			rewards: [
+				{ id: "E843F9AB049421FD", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "78E1CECA051B681A"
@@ -2868,6 +2882,7 @@
 			dependency_requirement: "one_completed"
 			id: "3CD1F9E00E33C6C9"
 			rewards: [
+				{ id: "EF738B5E5EDD3F22", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "521099624333DE1E"
@@ -2895,6 +2910,7 @@
 			]
 			id: "44F016F465082C55"
 			rewards: [
+				{ id: "A222E88F98FB5854", item: { count: 2, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "68A1E17843A0B791"
@@ -2922,6 +2938,7 @@
 			]
 			id: "4E67DE071FC9D80D"
 			rewards: [
+				{ id: "0DEEEF5E6BC3BC57", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "1279B07A8A80FEF8"
@@ -2949,6 +2966,7 @@
 			]
 			id: "129F6987E144B048"
 			rewards: [
+				{ id: "74A998F7D5BF613F", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "1E983232CF2EF67B"
@@ -2976,6 +2994,7 @@
 			]
 			id: "71D08D1C8EA4C631"
 			rewards: [
+				{ id: "2594A37D8F207006", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "08E9287775B53FFD"
@@ -3003,6 +3022,7 @@
 			]
 			id: "61DCECE1FC38E151"
 			rewards: [
+				{ id: "F53D8F8CE684F44D", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "32D20D1E95358153"
@@ -3031,6 +3051,7 @@
 			]
 			id: "393050BEA59F1570"
 			rewards: [
+				{ id: "D57D4ED4A8345348", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "7160C8F86CD5C89D"
@@ -3194,6 +3215,7 @@
 			]
 			id: "69E572EA56B3B31D"
 			rewards: [
+				{ id: "CF6FD693F978CA26", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					exclude_from_claim_all: true
 					id: "46BB2C3AB315B384"
@@ -3222,6 +3244,7 @@
 			hide_dependency_lines: true
 			id: "2C9EE7BE03767976"
 			rewards: [
+				{ id: "58C02448D5087CA1", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "084A23000B1F4C8A"
 					type: "xp"

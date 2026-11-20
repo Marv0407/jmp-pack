@@ -22,7 +22,7 @@
     wochenGrenze: 20 * 64,
     // Belohnung wird auf Vielfache hiervon gerundet (8 = Bevel).
     rundenAuf: 8,
-    // Mengen: mindestens so viele Items, hoechstens so viele Stacks.
+    // Mengen: mindestens so viele Items, hoechstens so viele Stacks (Stufe "frueh": siehe stufen).
     minMenge: 4,
     maxStacks: 4,
     // Items mit kleinerer Stack-Groesse lassen sich schlecht in Mengen abgeben.
@@ -47,29 +47,29 @@
 
     // Faktor auf den Basiswert je Stufe und Gewicht bei der Auswahl.
     stufen: {
-      frueh: { faktor: 1, gewicht: 5 },
+      frueh: { faktor: 1, gewicht: 5, maxStacks: 2 },
       mitte: { faktor: 2, gewicht: 3 },
       spaet: { faktor: 8, gewicht: 1 }
     },
-    // Material-Stichworte (Teil des Tag- oder Item-Namens). Reihenfolge der Pruefung: spaet, mitte, frueh.
+    // Stufe "spaet": Stichworte als Teil des Tag- oder Item-Namens (nur Material-Tags).
     stufeStichworte: {
       spaet: ["allthemodium", "vibranium", "unobtainium", "netherite", "draconium", "chaotic", "wyvern",
               "dragon", "insanium", "supremium", "neutronium", "infinity", "nether_star", "enderium",
-              "antimatter", "awakened", "prosperity", "soulium", "crimson_iron", "azure_electrum"],
-      mitte: ["brass", "silver", "zinc", "nickel", "lead", "bronze", "steel", "electrum", "invar",
-              "constantan", "aluminum", "osmium", "uranium", "platinum", "signalum", "lumium", "diamond",
-              "emerald", "quartz", "certus", "fluix", "obsidian", "rose_gold", "cobalt", "iridium",
-              "refined", "plastic", "silicon", "graphite", "fluorite", "ruby", "sapphire", "peridot"],
-      frueh: ["iron", "copper", "gold", "tin", "coal", "charcoal", "lapis", "redstone", "amethyst", "wood",
-              "andesite", "sulfur", "salt", "apatite", "flint", "clay", "glowstone", "zinc_nugget"]
+              "antimatter", "awakened", "prosperity", "soulium", "crimson_iron", "azure_electrum"]
     },
     // Ganze Mods einer Stufe zuordnen (Namespace des Items).
     stufeMods: {
       allthemodium: "spaet", draconicevolution: "spaet", mysticalagradditions: "spaet", allthetweaks: "spaet"
     },
-    // Stufe, wenn kein Stichwort passt: Material-Tags "mitte", Essen/Feldfruechte "frueh".
-    stufeStandardTag: "mitte",
-    stufeStandardItem: "frueh",
+    // Stufe "frueh" nur per Positivliste, alles andere ist mindestens "mitte".
+    // Material-Tags: genauer Materialname (ohne "raw_"), und nur Familien ohne Maschine.
+    fruehMaterialien: ["iron", "copper", "gold", "zinc", "tin", "lead", "silver", "coal", "charcoal", "redstone",
+                       "lapis", "amethyst", "quartz", "flint", "clay", "glowstone", "andesite_alloy", "wood"],
+    fruehFamilien: ["ingots", "raw_materials", "nuggets", "gems", "storage_blocks"],
+    // ... und nur, wenn das angezeigte Item aus einer dieser Mods kommt.
+    fruehTagMods: ["minecraft", "alltheores", "create"],
+    // Essen und Feldfruechte: nur aus diesen Mods (Overworld, ohne Maschine).
+    fruehItemMods: ["minecraft", "farmersdelight", "create", "pamhc2crops", "pamhc2trees", "herbsandharvest", "aquaculture"],
 
     // Gewicht pro Mod (Namespace des angezeigten Items). Standard 1.
     modGewicht: {
@@ -89,7 +89,8 @@
       "c:foods/raw_fish", "c:foods/food_poisoning", "c:foods/soup", "c:foods/edible_when_placed",
       "c:storage_blocks/dirt", "c:storage_blocks/gravel"
     ],
-    sperreMods: ["allthecompressed", "cabletiers"],
+    // neovitae: Staub fuer viele Materialien, nur ueber die Erzverarbeitung von Blood Magic erhaeltlich
+    sperreMods: ["allthecompressed", "cabletiers", "neovitae"],
 
     // Debug-Ausgabe beim Bauen des Pools ins KubeJS-Log (server.log).
     poolLoggen: true
@@ -155,14 +156,16 @@
     for (let i = 0; i < liste.length; i++) if (text.indexOf(liste[i]) >= 0) return true
     return false
   }
-  function stufeVon(material, id, standard) {
+  function stufeVon(familie, material, id, art) {
     let ns = namespace(id)
     if (KONFIG.stufeMods[ns]) return KONFIG.stufeMods[ns]
+    if (art != "tag") return KONFIG.fruehItemMods.indexOf(ns) >= 0 ? "frueh" : "mitte"
     let text = material + " " + id.split(":")[1]
     if (enthaeltStichwort(text, KONFIG.stufeStichworte.spaet)) return "spaet"
-    if (enthaeltStichwort(text, KONFIG.stufeStichworte.mitte)) return "mitte"
-    if (enthaeltStichwort(text, KONFIG.stufeStichworte.frueh)) return "frueh"
-    return standard
+    let mat = material.replace(/^raw_/, "")
+    if (KONFIG.fruehMaterialien.indexOf(mat) >= 0 && KONFIG.fruehFamilien.indexOf(familie) >= 0 &&
+        KONFIG.fruehTagMods.indexOf(ns) >= 0) return "frueh"
+    return "mitte"
   }
   function gesperrt(id) {
     if (KONFIG.sperreMods.indexOf(namespace(id)) >= 0) return true
@@ -233,7 +236,7 @@
         if (food != null) wert = Math.max(0.5, 0.3 * food.nutrition())
       } catch (e) { /* ohne Nahrungswert bleibt der Basiswert */ }
     }
-    let stufe = stufeVon(material, anzeige, art == "tag" ? KONFIG.stufeStandardTag : KONFIG.stufeStandardItem)
+    let stufe = stufeVon(familie, material, anzeige, art)
     let akzeptiert = {}
     for (let i = 0; i < ids.length; i++) akzeptiert[ids[i]] = true
     return {
@@ -357,7 +360,7 @@
   // ===================================================================
   function mengeFuer(eintrag, ziel, rnd) {
     let wunsch = ziel[0] + rnd() * (ziel[1] - ziel[0])
-    let maxMenge = eintrag.stack * KONFIG.maxStacks
+    let maxMenge = eintrag.stack * (KONFIG.stufen[eintrag.stufe].maxStacks || KONFIG.maxStacks)
     let menge = Math.round(wunsch / eintrag.stueckwert)
     if (menge > 8) menge = Math.round(menge / 4) * 4 // runde Mengen
     menge = Math.max(KONFIG.minMenge, Math.min(maxMenge, menge))

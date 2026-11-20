@@ -451,6 +451,7 @@
 			dependencies: ["4869C413646CC4CC"]
 			id: "672134A1A620EEAB"
 			rewards: [
+				{ id: "3C6F46052C4C58C0", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					count: 3
 					id: "292F484BF4813BC8"
@@ -508,6 +509,7 @@
 			hide_until_deps_visible: false
 			id: "61C49BC2B384FB80"
 			rewards: [
+				{ id: "ED7F203813A40D08", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					count: 4
 					id: "2B6D859AC045608E"
@@ -547,7 +549,9 @@
 			dependencies: ["61C49BC2B384FB80"]
 			hide_until_deps_visible: false
 			id: "6EE5BE5693E8ACE4"
-			rewards: [{
+			rewards: [
+				{ id: "A7A759893373573F", item: { count: 3, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "56A277BC5DE71CA9"
 				type: "xp"
 				xp: 250
@@ -595,6 +599,7 @@
 			dependencies: ["0F3D51FFD2FE8DCB"]
 			id: "1E1EB7DC19DDCFB7"
 			rewards: [
+				{ id: "10EE05022E92F572", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					id: "35CDC7E5C0EE5EDE"
 					item: {
@@ -626,6 +631,7 @@
 			]
 			id: "0F026D5A17CCCF51"
 			rewards: [
+				{ id: "E721E74DFD4140A1", item: { count: 1, id: "numismatics:cog" }, type: "item" }
 				{
 					count: 3
 					id: "05FE76F501B0D1CA"
@@ -684,6 +690,7 @@
 			dependencies: ["0F3D51FFD2FE8DCB"]
 			id: "5E799B92358A8732"
 			rewards: [
+				{ id: "D7D82C728181BB07", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
 				{
 					count: 3
 					id: "59B12AC887E1CAD7"
@@ -711,7 +718,9 @@
 		{
 			dependencies: ["5E799B92358A8732"]
 			id: "6EDAB29FBD3C60A3"
-			rewards: [{
+			rewards: [
+				{ id: "016F5241FC9CE76A", item: { count: 1, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "2CAC99F03D8678A9"
 				type: "xp"
 				xp: 50
@@ -778,6 +787,7 @@
 			hide_until_deps_visible: false
 			id: "6D09511D64DDC282"
 			rewards: [
+				{ id: "2E768B539139EE0B", item: { count: 4, id: "numismatics:cog" }, type: "item" }
 				{
 					id: "7949A3E032C67EB5"
 					type: "xp"
@@ -822,7 +832,9 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "69A517AB8A801939"
-			rewards: [{
+			rewards: [
+				{ id: "91E857B07D85B420", item: { count: 3, id: "numismatics:cog" }, type: "item" }
+				{
 				id: "1C1320B4266DCB86"
 				type: "xp"
 				xp: 250
@@ -867,7 +879,9 @@
 				id: "minecraft:wither_skeleton_skull"
 			}
 			id: "4A4C71C43519D5FE"
-			rewards: [{
+			rewards: [
+				{ id: "CDCA1ED4BB725EF3", item: { count: 3, id: "numismatics:sprocket" }, type: "item" }
+				{
 				count: 3
 				id: "1E652F9EA091A842"
 				item: {
