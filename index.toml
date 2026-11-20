@@ -17175,11 +17175,6 @@ hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
 metafile = true
 
 [[files]]
-file = "mods/neoauth.pw.toml"
-hash = "39fae3d58ee32b5aff7a9d15e86eda2aaaf5170e72cc302549bb53ecc827bc01"
-metafile = true
-
-[[files]]
 file = "mods/neovitae.pw.toml"
 hash = "c7fec1d0b32b8fc151c65a6cef4aa1e2bb34e13db7823eda86cb44c67c3bbb46"
 metafile = true
