@@ -4720,6 +4720,14 @@ file = "config/securitycraft-client.toml"
 hash = "187407be08ea955afdf91ab37feed5df23e0d1a22e6df6f9a100821396427efa"
 
 [[files]]
+file = "config/servercore/config.yml"
+hash = "8fd46e23ebf12676312507c6c3b904853409b3a62af3b24e56a3b9a73279b4e2"
+
+[[files]]
+file = "config/servercore/optimizations.yml"
+hash = "aac94e89065be90ffc0420ac963131b26bb26c45d3c9d1c229c149e748214307"
+
+[[files]]
 file = "config/silentgear-common.toml"
 hash = "c499c631ca76878d22ed2c60a07cc604d114b56b1819d7d22491738cc091ceaf"
 
@@ -17576,6 +17584,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "6aba148930aeb000292b8862990ab4515ea033554b67b44dd3e59f16ef244778"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "33454564d216f62d011ac78fc0aa2a49977ac1161f10f4accb1d33a9934969df"
 metafile = true
 
 [[files]]
