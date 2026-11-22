@@ -1,0 +1,13 @@
+name = "Music Disc Maker"
+filename = "music_disc_maker-3.1.4-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "88a6209b33979ba48e588de1689fc17bf86e7f93"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9560932
+project-id = 1564253

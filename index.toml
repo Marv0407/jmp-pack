@@ -16312,6 +16312,11 @@ hash = "019d7c110e2fcf7c908d4f58c7abd29ac2adbd20631fa63d77cb35d8dd6c2a45"
 metafile = true
 
 [[files]]
+file = "mods/entityculling.pw.toml"
+hash = "d518db51c2502b5b04d6ca4add6a2b3e862a0af15e7a65f0ab83180778adb604"
+metafile = true
+
+[[files]]
 file = "mods/eternal-starlight.pw.toml"
 hash = "b30bd5d8702c19e0a4b55ae895de4a7bfadccaec60608a79cd0997a5c5f30270"
 metafile = true
@@ -17174,6 +17179,11 @@ metafile = true
 [[files]]
 file = "mods/multi-piston.pw.toml"
 hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
+metafile = true
+
+[[files]]
+file = "mods/music-disc-maker.pw.toml"
+hash = "db5c149e201df54a0ad0fb3ffb733a3d86532960a748a5798ebe2915428e9eb6"
 metafile = true
 
 [[files]]
