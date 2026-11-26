@@ -16662,6 +16662,11 @@ hash = "a46a4220e4d467208a042ccd05cc8c2908733f02da6f5ecd532ab4cb2ed72909"
 metafile = true
 
 [[files]]
+file = "mods/immersive-panoramas.pw.toml"
+hash = "01355f697f68cd9f45c3d26f6d66fb804775efbb0183f71192fe4f9a1b1df5fa"
+metafile = true
+
+[[files]]
 file = "mods/in-control.pw.toml"
 hash = "d24d01bc01bb095d47c905a778ebe27d14a568cd9e39e63a614b1223b33a7254"
 metafile = true
