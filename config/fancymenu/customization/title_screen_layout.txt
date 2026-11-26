@@ -22,18 +22,6 @@ customization {
   baseheight = 1080
 }
 
-menu_background {
-  image_path = [source:local]/config/fancymenu/assets/menu_background.png
-  slide = false
-  repeat_texture = false
-  parallax = false
-  parallax_intensity = 0.02
-  invert_parallax = false
-  restart_animated_on_menu_load = false
-  instance_identifier = 6d0c4206-a844-4626-9bd5-135bfb10b0b9-1756740453518
-  background_type = image
-}
-
 customization {
   action = backgroundoptions
   keepaspectratio = true
@@ -51,6 +39,48 @@ scroll_list_customization {
 }
 
 layout_action_executable_blocks {
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/menu_background.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = b495b1fc-199d-436c-bf90-1a9d99978a53-1764100000000
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1080
+  sticky_anchor = false
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 1920
+  height = 1080
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 8930c54b-3a46-48da-98d9-924aa8438a58-1764100000000
+  [loading_requirement_container_meta:8930c54b-3a46-48da-98d9-924aa8438a58-1764100000000] = [groups:][instances:0ce1d576-7f61-4be2-96c2-5eb4bde5f837-1764100000000;]
+  [loading_requirement:fancymenu_loading_requirement_is_mod_loaded][requirement_mode:if_not][req_id:0ce1d576-7f61-4be2-96c2-5eb4bde5f837-1764100000000] = immersivepanoramas
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
 }
 
 element {
