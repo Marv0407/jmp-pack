@@ -1,0 +1,13 @@
+name = "BuildPrint - Schematics & Printer (Litematica Alternative)"
+filename = "buildprint-neoforge-0.1.46+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pa8th8fX/versions/izpaN8Jm/buildprint-neoforge-0.1.46%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "cf810e18acc7fad28ca88b673cc6cb6ecffbcc3408326156bc275e6314caf6c0aa4f59af38305308b6691a619b005101570065fa6d523e3b86bf593ee08590da"
+
+[update]
+[update.modrinth]
+mod-id = "pa8th8fX"
+version = "izpaN8Jm"
